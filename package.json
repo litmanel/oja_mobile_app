@@ -1,0 +1,19 @@
+{
+  "name": "oja-ogbomoso",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "verify": "pnpm typecheck && pnpm lint && pnpm --filter @oja/db migrate -- --dry-run"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.5.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.0"
+  },
+  "packageManager": "pnpm@9.4.0"
+}
