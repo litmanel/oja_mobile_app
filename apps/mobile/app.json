@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "scheme": "ojaogbomoso",
+    "scheme": "ojaogbomoso-app-code",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
